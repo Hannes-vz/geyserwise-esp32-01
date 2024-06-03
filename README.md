@@ -189,4 +189,17 @@ The sunsynk monitoring project I used you can find on [powerforum](https://power
 
 ![Schematic](https://github.com/Hannes-vz/geyserwise-esp32-01/blob/main/Pictures/Schematic.png)
 
+## Analog pin breakout
+
+I searched for a way to read analog signals but the esp8266 chip on the esp-01 does not provide it by default.
+After searching in the documentation I found an analog pin that you can access by bridging it out with 26 awg wire.
+
+### Documentation
+
+![Documentation-analogpin](https://github.com/Hannes-vz/geyserwise-esp32-01/blob/main/Pictures/esp8266doc.jpg)
+
+![Soldering](https://github.com/Hannes-vz/geyserwise-esp32-01/blob/main/Pictures/Solderingexample.jpg)
+
+
+
 
