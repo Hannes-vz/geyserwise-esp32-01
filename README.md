@@ -187,6 +187,6 @@ The sunsynk monitoring project I used you can find on [powerforum](https://power
 
 ## Circuit Diagrams
 
-![Schematic](https://github.com/Hannes-vz/geyserwise-esp32-01/Pictures/Schematic.png)
+![Schematic](https://github.com/Hannes-vz/geyserwise-esp32-01/tree/main/Pictures/Schematic.png)
 
 
