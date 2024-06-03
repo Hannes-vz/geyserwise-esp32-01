@@ -36,7 +36,7 @@ ota:
 wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_password
-  reboot_timeout: 0s #This prevents a bug I had where esp whould at random intervals restart.
+  reboot_timeout: 0s #This prevents a bug I had where esp would at random intervals, restart.
 
 mqtt:
   broker: 192.168.1.102
