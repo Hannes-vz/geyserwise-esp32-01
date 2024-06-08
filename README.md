@@ -200,6 +200,23 @@ After searching in the documentation I found an analog pin that you can access b
 
 ![Soldering](https://github.com/Hannes-vz/geyserwise-esp32-01/blob/main/Pictures/Solderingexample.jpg)
 
+## Geyser on/off detection
+
+The yellow wire pulls high when the geyser element is turned on. Connect wire to the pin to read the state of the geyser element.
+
+![Gonoffstate](https://github.com/Hannes-vz/geyserwise-esp32-01/blob/main/Pictures/Gonoff.jpeg)
+
+## Temperature detection
+
+The esp8266 chip analog toup pin can only read voltages between 0V - 1V. I lowered the voltage by making a voltage divider as shown in the schematic diagram.
+I setup my phone camera to record the voltage the esp-01 is reading at a certain time and the temperature displayed on the geyserwise. 
+And just set the datapoints in the esphome config. Tried using simple linear function, it was highly inaccurate.
 
 
+## Final circuit
 
+Relay is probably no necessary, but I used it just make make sure I don't blow something.
+The orange wire is the ground wire.
+The blue wire is the geyser element state detection.
+
+![Circuit](https://github.com/Hannes-vz/geyserwise-esp32-01/blob/main/Pictures/Circuit.jpeg)
