@@ -215,7 +215,7 @@ And just set the datapoints in the esphome config. Tried using simple linear fun
 
 ## Final circuit
 
-Relay is probably no necessary, but I used it just make make sure I don't blow something.
+Relay is probably not necessary, but I used it just make make sure I don't blow something.
 The orange wire is the ground wire.
 The blue wire is the geyser element state detection.
 
