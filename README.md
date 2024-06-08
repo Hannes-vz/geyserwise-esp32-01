@@ -2,7 +2,8 @@
 # Geyserwise simple button press with esp-01
 
 Use [esp-01 from aliexpress](https://www.aliexpress.com/item/1005004626018608.html) or [esp-01 from Micro robotics](https://www.robotics.org.za/ESP-01?search=esp) to trigger red pin on geyserwise with the option of adding temperature reading.
-This is meant to be integrated with homeassistant only using mqtt. You can use the homeassistant api also, but not both, things break. I use mqtt because I need to read the grid frekuency for led indicator light.
+
+This is meant to be integrated with homeassistant only using mqtt. You can use the homeassistant api also, but not both, things break. I use mqtt because I need to read the grid frequency for led indicator light.
 
 ## Esp firmware
 
